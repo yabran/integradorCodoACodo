@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.page-header {
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/hawaii.jpg');
+  }
+
+  .link-green{
+      color:#059862 !important;
+
+  }
+
+  .nav-item{
+      font-size: 1.1rem;
+  }
+
+  nav.navbar{
+      height: 100px;
+  }
+
+  #logo-nav{
+        height: 80px;
+  }
+
+  #container-logo{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+  }
+
+  .color-white{
+      color:white !important;
+      z-index: 2;
+      text-align: right;
+      font-size: 1.3rem;
+     
+  }
+
+  #container-header{
+    position: absolute;
+    left:60%;
+    top:30%;
+    width: 30%;
+  }
+
+  .title-oradores{
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  .mr-1{
+        margin-right: 1.5rem;
+  }
+
+  .badge-warning{
+      background-color: #ffc107 !important;
+      color:black
+  }
+
+  .container-info-middle{
+      width: 100%;
+        display: flex;
+        height: 500px;
+        margin: 20px 0;
+
+  }
+
+  .text-middle{
+      background-color: #212529;
+      color: white;
+      width: 50%;
+        height: 100%;
+        padding:20px;
+        line-height:1cm;
+        
+  }
+
+  .img-middle{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url('../assets/honolulu.jpg');
+  }
+
+  .mt-2{
+      margin-top: 20px;
+  }
+
+  .gray{
+      color:gray
+  }
+
+  textarea::placeholder {
+    
+    font-size: 1.5em;
+  }
+
+  .bg-green-light{
+      background-color: #98EF0C;
+      color: white;
+      font-weight: 700;
+  }
+
+  .footer{
+      margin-top: 40px;
+      width: 100%;
+      height: 120px;
+      background-color: #44526D;
+      color: white !important;
+      display: flex;
+      align-items: center;
+  }
+
+  a.link-footer{
+    color:white;
+    text-decoration: none;
+    margin-right: 30px;
+    
+  }
